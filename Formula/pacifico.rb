@@ -33,6 +33,6 @@ class Pacifico < Formula
 
   test do
     assert_equal "pacifico #{version}", shell_output("#{bin}/pacifico --version").strip
-    assert_match "Usage:", shell_output("#{bin}/pacifico --help")
+    assert_match "Usage:", shell_output("#{bin}/pacifico --help 2>&1")
   end
 end

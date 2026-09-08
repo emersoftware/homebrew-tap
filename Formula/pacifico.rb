@@ -28,7 +28,7 @@ class Pacifico < Formula
 
   def install
     bin.install "pacifico"
-    pkgshare.install "LICENSE", "NOTICE"
+    pkgshare.install "LICENSE"
   end
 
   test do

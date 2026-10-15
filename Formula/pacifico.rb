@@ -1,28 +1,28 @@
 class Pacifico < Formula
   desc "Local archive and MCP recall for AI coding sessions"
   homepage "https://github.com/emersoftware/pacifico"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/emersoftware/pacifico/releases/download/v#{version}/pacifico-darwin-arm64.tar.gz"
-      sha256 "457e6b9dd4ae5e4cfe4c67c2b471a6ed8f25f520c86321065d812cd8ef240363"
+      sha256 "097f04d7a7d60b95d726bd60bc2daf58b464ca44885ebc400da7806ce527548e"
     end
     on_intel do
       url "https://github.com/emersoftware/pacifico/releases/download/v#{version}/pacifico-darwin-x86_64.tar.gz"
-      sha256 "e6d50595ab908fb7184aa7060707993238be3a57e5b30082b8430914edbcaa2e"
+      sha256 "8ea372f877b9f53e985cf7467889e85f1bdf330794e526f14de1b7d72911fc2d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/emersoftware/pacifico/releases/download/v#{version}/pacifico-linux-arm64.tar.gz"
-      sha256 "ff1dabd361d7b1bfa46d8028fe8e5e88c586f95417a5c791195bcaded7c0017d"
+      sha256 "1e5da2f119358a6d6a55ce7b1885a7740b22d9716b2bf811d9505808df4f1ece"
     end
     on_intel do
       url "https://github.com/emersoftware/pacifico/releases/download/v#{version}/pacifico-linux-x86_64.tar.gz"
-      sha256 "cf8a07919d420409da9a99fdd611122b49f9814a4f89c560b5c123a33ae75f29"
+      sha256 "7c4685bd61a6f8d86a7d2bd46aea3c172e35264331ac1bfdc4d6b7390ce5ea3e"
     end
   end
 
